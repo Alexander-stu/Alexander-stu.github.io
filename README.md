@@ -1,2 +1,2 @@
 # Alexander-stu.github.io
-This repository storages the portfolio projects
+This repository stores the projects in the portfolio.
