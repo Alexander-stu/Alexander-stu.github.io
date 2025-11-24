@@ -1,309 +1,316 @@
-
-
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Erick Alexander Vázquez | Portafolio</title>
-
-  <!-- Bulma CSS (puedes cambiar a archivo local después) -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.4/css/bulma.min.css"
-  />
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    .hero {
-      min-height: 100vh;
-    }
-    .section-title {
-      margin-bottom: 2rem;
-    }
-    .project-card {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .project-card .card-content {
-      flex: 1;
-    }
-    footer {
-      padding: 2rem 1.5rem;
-    }
-  </style>
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="#hero">
-        <strong>Erick Vázquez</strong>
-      </a>
-
-      <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="mainNavbar"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="mainNavbar" class="navbar-menu">
-      <div class="navbar-end">
-        <a class="navbar-item" href="#about">Sobre mí</a>
-        <a class="navbar-item" href="#skills">Skills</a>
-        <a class="navbar-item" href="#projects">Proyectos</a>
-        <a class="navbar-item" href="#contact">Contacto</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <section id="hero" class="hero is-fullheight is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns is-vcentered">
-          <div class="column is-7">
-            <p class="subtitle is-5">Hola, soy</p>
-            <h1 class="title is-1">
-              Erick Alexander Vázquez
-            </h1>
-            <h2 class="subtitle is-3">
-              Software Developer & Aspiring Data Engineer
-            </h2>
-            <p class="subtitle is-5">
-              Desarrollo automatizaciones RPA, procesos de extracción y transformación de datos,
-              y dashboards que ayudan a Finanzas a tomar mejores decisiones.
-            </p>
-            <div class="buttons mt-4">
-              <a href="#projects" class="button is-light is-outlined">
-                Ver proyectos
-              </a>
-              <a href="#contact" class="button is-link">
-                Contáctame
-              </a>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Portafolio de proyectos</title>
+        <link rel="stylesheet" href="css\bulma-1.0.4\bulma\css\bulma.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="img\portfolio.png">
+        
+    </head>
+    <body>
+        <!-- <section class="section">
+            <div class="container">
+                <h1 class="title">Hello world</h1>
+                <p class="subtitle">My first website with <strong>Bulma</strong>!</p>
             </div>
-          </div>
-          <div class="column is-5">
-            <!-- Aquí podrías poner una imagen, avatar o ilustración -->
-            <div class="box">
-              <p class="title is-5">Resumen rápido</p>
-              <p>
-                + Automatización de procesos en Finanzas (RPA, Python, SQL).<br />
-                + Proyectos de análisis de datos (Python, Power BI).<br />
-                + En transición hacia roles de Data / Analytics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </section> -->
 
-  <!-- Sobre mí -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="title is-2 section-title">Sobre mí</h2>
-      <div class="columns">
-        <div class="column is-8">
-          <p class="content is-size-5">
-            Soy Ingeniero en Sistemas Computacionales y trabajo como Software Developer,
-            principalmente construyendo soluciones de automatización (RPA) para el área de
-            Finanzas. Me especializo en:
-          </p>
-          <ul class="content is-size-5">
-            <li>Automatización de procesos con Python y RPA.</li>
-            <li>Extracción, limpieza y preparación de datos para reportes.</li>
-            <li>Creación de dashboards y modelos de datos en Power BI.</li>
-          </ul>
-          <p class="content is-size-5">
-            Actualmente estoy enfocando mi desarrollo hacia el mundo de datos:
-            Data Engineering, Data Analytics y Data Science, aplicando lo que aprendo en
-            proyectos reales y personales.
-          </p>
-        </div>
-        <div class="column is-4">
-          <article class="message is-link">
-            <div class="message-header">
-              <p>En pocas palabras</p>
+        <header>
+            <!-- <div>
+                <img src="img/name logo.png" width=114 height="12" alt="Name logo">
             </div>
-            <div class="message-body">
-              <ul>
-                <li>📍 Celaya, México</li>
-                <li>💼 RPA / Software Developer</li>
-                <li>📊 En transición a Data Engineer</li>
-                <li>📚 Aprendiendo Data Science & Analytics</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
+            Cabecera del sitio (logo, título principal)
+            <nav>
+                Menú de navegación principal (Inicio, Acerca de, Contacto)
+            </nav> -->
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">                        
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            width="271.000000pt" height="82.000000pt" viewBox="0 0 271.000000 82.000000"
+                            preserveAspectRatio="xMidYMid meet">
 
-  <!-- Skills / Roles -->
-  <section id="skills" class="section has-background-light">
-    <div class="container">
-      <h2 class="title is-2 section-title">Lo que hago</h2>
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <h3 class="title is-4">RPA & Automatización</h3>
+                            <g transform="translate(0.000000,82.000000) scale(0.100000,-0.100000)"
+                            fill="" stroke="none">
+                                <path d="M877 796 c-74 -27 -74 -27 -207 -391 -45 -121 -83 -226 -86 -234 -2
+                                -7 -11 -10 -20 -7 -9 3 -82 6 -164 6 -145 0 -149 1 -179 26 -43 36 -43 82 0
+                                118 30 25 35 26 170 26 l139 0 0 69 0 70 -146 3 c-146 3 -146 3 -170 31 -30
+                                36 -31 77 -1 105 21 20 35 22 187 24 l165 3 0 70 0 70 -187 3 c-175 2 -191 1
+                                -230 -19 -55 -27 -86 -56 -108 -99 -38 -76 -32 -153 16 -217 28 -37 30 -56 7
+                                -74 -24 -20 -53 -89 -53 -128 0 -61 23 -114 71 -162 64 -65 98 -71 393 -67
+                                l239 3 25 73 24 72 168 0 169 0 19 -52 c11 -29 21 -62 23 -73 4 -18 13 -20
+                                102 -23 53 -1 97 -1 97 1 0 3 -59 164 -130 358 -141 383 -148 396 -227 418
+                                -48 14 -59 13 -106 -3z m70 -158 c6 -7 27 -69 48 -138 20 -69 41 -129 46 -135
+                                11 -11 12 -45 2 -45 -83 -4 -216 0 -223 6 -9 10 98 324 110 324 4 0 12 -6 17
+                                -12z"/>
+                                <path d="M1268 784 c-4 -3 19 -76 49 -162 30 -86 84 -240 119 -341 35 -102 71
+                                -196 80 -208 53 -82 199 -85 264 -6 16 19 63 142 130 336 85 251 106 303 113
+                                285 5 -13 9 -168 9 -346 l0 -323 262 3 263 3 48 30 c122 76 129 244 14 335
+                                l-41 33 31 24 c108 84 89 264 -33 321 -44 21 -59 22 -384 22 l-338 0 -59 -192
+                                c-32 -106 -74 -242 -92 -303 -19 -60 -36 -111 -38 -113 -17 -18 -41 43 -120
+                                307 l-90 301 -91 0 c-50 0 -93 -3 -96 -6z m1209 -166 c32 -30 31 -87 0 -117
+                                -22 -20 -32 -21 -143 -19 l-119 3 -3 78 -3 77 122 0 c112 0 125 -2 146 -22z
+                                m15 -298 c52 -40 38 -128 -22 -149 -34 -12 -217 -15 -244 -5 -13 5 -16 23 -16
+                                90 l0 84 129 0 c113 0 131 -2 153 -20z"/>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                    <a class="navbar-item">
+                        Sobre mí
+                    </a>
+
+                    <a class="navbar-item">
+                        Skills
+
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                        Proyectos
+                        </a>
+
+                        <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            About
+                        </a>
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- Seccion principal de presentación -->
+        <section id="hero" class="hero is-halfheight is-primary">
+            <main>
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="columns is-vcentered">
+                            <div class="column is-7">
+                                <p class="subtitle is-5">Hola, soy</p>
+                                <h1 class="title">Erick Alexander Vazquez Barrios</h1>
+                                <h2 class="subtitle is-4">Ingeniero en Sistemas Computacionales & Aspirante a Analista de Datos</h2>
+                                <div class="buttons mt-2">
+                                    <a class="button is-light is-outlined" href="#proyects">Ver proyectos</a>
+                                    <a class="button is-link" href="#contact">Contáctame</a>
+                                </div>
+                            </div>
+                            <div class="column is-5">
+                                <div class="box">
+                                    <p><strong>Resumen rápido</strong></p>
+                                    <p>Soy un ingeniero de sistemas computacionales apasionado por los datos, los libros
+                                    y los videojuegos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </section>
+        
+        <!-- Sección para breve resumen sobre mí -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="title is-2">Sobre mí</h2>
+                    <div class="columns">
+                        <div class="column is-8">
+                            <p class="content is-size-5">
+                                Soy Ingeniero en Sistemas Computacionales y trabajo como Software Developer,
+                                principalmente construyendo soluciones de automatización (RPA) para las áreas de
+                                Finanzas y Transportes, con la finalidad de reducir el tiempo de los flujos de 
+                                trabajo críticos. Me especializo en:
+                            </p>
+                            <ul class="content is-size-5">
+                                <li>Automatización de procesos con Python y RPA.</li>
+                                <li>Preparación (extracción, limpieza y carga) de datos para reportes.</li>
+                                <li>Creación de dashboards y modelos de datos en Power BI.</li>
+                            </ul>
+                            <p class="content is-size-5">
+                                Actualmente estoy enfocando mi desarrollo hacia el mundo de datos:
+                                Data Engineering, Data Analytics y Data Science, aplicando lo que aprendo en
+                                proyectos reales y personales.
+                            </p>
+                        </div>
+                        <div class="column is-4">
+                            <article class="message is-link">
+                                <div class="message-header">
+                                    <p>En pocas palabras</p>
+                                </div>
+                                <div class="message-body">
+                                    <ul>
+                                        <li>📍 Salamanca, Guanajuato, México</li>
+                                        <li>💼 RPA Developer/Computational Systems Engineer/Software Developer/Software Engineer</li>
+                                        <li>📊 En transición a Data Analyst</li>
+                                        <li>📚 Aprendiendo Data Science & Analytics</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Sección para mencionar experiencia, conocimientos e intereses -->
+        <section id="skills" class="section has-background-light">
+            <div class="container">
+                
+                <h2 class="title is-2">Habilidades</h2>
+                
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <h3 class="title is-4">Experiencia con RPA</h3>
+                            <p >He desarrollado proyectos automatizados dependientes e independientes del usuario, ofreciendo de esta manera reducción del tiempo en el flujo de trabajo.</p>
+                        </div>
+                    </div> 
+                    <div class="column">
+                        <div class="box">
+                            <h3 class="title is-4">Lenguajes que hablo</h3>
+                            <ul>
+                                <li>▶️Python (Selenium, Pandas, NumPy, Matplotlib, Seaborn, PyAutoGui, Office365, MSAL, Eel) </li>
+                                <li>▶️Visual Basic (Excel Macros), Advanced Excel</li>
+                                <li>▶️JavaScript (jQuery)</li>
+                                <li>▶️HTML</li>
+                                <li>▶️CSS (Bootstrap, Bulma)</li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="column">
+                        <div class="box">
+                            <h3 class="title is-4">Intereses profesionales</h3>
+                            <ul>
+                                <li>✳️Análisis de datos</li>
+                                <li>✳️Inteligencia Artificial</li>
+                                <li>✳️Ciencia de Datos</li>
+                                <li>✳️Visión por Computadora</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección para mostrar tarjetas de algunos proyectos que redirigen a su propia página -->
+        <section id="projects" class="section">
+            <div class="container">
+                
+                <h2 class="title is-2">Proyectos recientes</h2>
+                
+                <div class="columns is-multiline">
+                    <div class="column is-4">
+                        <div class="card project-card">
+                            <div class="card-content">
+                                <h3 class="title is-4">RPA para Descarga y Formateo de Reportes</h3>
+                                <img src="img\robot-svgrepo-com.svg" alt="icono robot">
+                                <p >En este proyecto es posible ver el flujo de trabajo típico de obtención, formateo, carga y entrega de información fiscal ficticia en reportes de texto/SQL y como final un dashboard para analizar/visualizar datos</p>
+                                <footer class="card-footer">
+                                    <a href="#" class="card-footer-item">Ver en GitHub</a>
+                                </footer>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    <div class="column is-4">
+                        <div class="card project-card">
+                            <div class="card-content">
+                                <h3 class="title is-4">Analisis de Ventas con Python</h3>
+                                <img src="img\wave-data-svgrepo-com.svg" alt="">
+                                <ul>
+                                    <p>En este proyecto se muestra una forma típica de realizar análisis de datos del dataset Super Store 2018 desde Python</p>
+                                    
+                                </ul>
+                                <footer class="card-footer">
+                                    <a href="#" class="card-footer-item">Ver en GitHub</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="column is-4">
+                        <div class="card project-card">
+                            <div class="card-content">
+                                <h3 class="title is-4">Dashboard Power BI</h3>
+                                <img src="img\analysis-screen-svgrepo-com.svg" alt="icono dashboard">
+                                <ul>
+                                    <p>En este proyecto se muestra la preparación del modelo de datos, las visualizaciones y el análisis de datos para generar insights/información y tomar decisiones</p>
+                                </ul>
+                                <footer class="card-footer">
+                                    <a href="#" class="card-footer-item">Ver en GitHub</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="side-projects">…</section>
+        <section id="testimonials">…</section> -->
+        <section id="contact" class="section has-background-light">
+            <div class="container">
+                <h2 class="title is-2">Contacto</h2>
+                <div class="columns">
+                    <div class="column is-8">
+                        <p class="content is-size-5">
+                            ¿Te interesa colaborar, revisar mi trabajo o tienes alguna oportunidad
+                            relacionada con automatización o datos?
+                        </p>
+                        <p class="content is-size-5">
+                            <strong> Puedes escribirme directamente a:</strong>
+                        </p>
+                        <p class="content is-size-5">
+                            <strong>Email:</strong> ea.vazquezbarrios@ugto.mx<br />
+                            <strong>GitHub:</strong> <a href="https://github.com/Alexander-Stu" target="_blank">github.com/Alexander-Stu</a><br />
+                            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/erickalexandervazquez/" target="_blank">Perfil Alexander</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <!-- Footer -->
+        <footer class="has-text-centered">
             <p>
-              Desarrollo bots y scripts que eliminan tareas repetitivas en Finanzas.
+            Living, learning & leveling up one project at a time. ✨
             </p>
-            <ul>
-              <li>Python (Selenium, requests, etc.)</li>
-              <li>Automatización de descargas, carga a ERP, reconciliaciones</li>
-              <li>Manejo de archivos Excel, CSV, SQL</li>
-            </ul>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <h3 class="title is-4">Data Analysis</h3>
-            <p>
-              Limpieza, transformación y análisis de datos para generar insights.
+            <p class="is-size-7 mt-2">
+            Hecho con <a href="https://bulma.io" target="_blank">Bulma</a> y GitHub Pages.
             </p>
-            <ul>
-              <li>Pandas, SQL</li>
-              <li>Visualizaciones y reportes</li>
-              <li>Power BI (dashboards, modelos de datos)</li>
-            </ul>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <h3 class="title is-4">Software & Scripts</h3>
-            <p>
-              Construyo herramientas internas para facilitar el trabajo del equipo.
-            </p>
-            <ul>
-              <li>Automatización de procesos de transporte / costos</li>
-              <li>Pequeñas aplicaciones para uso interno</li>
-              <li>Buenas prácticas de código y mantenimiento</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Proyectos -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="title is-2 section-title">Proyectos recientes</h2>
-
-      <div class="columns is-multiline">
-        <!-- Proyecto 1 -->
-        <div class="column is-4">
-          <div class="card project-card">
-            <div class="card-content">
-              <p class="title is-4">Automatización de carga de facturas al ERP</p>
-              <p class="subtitle is-6">RPA · Python · Excel · ERP</p>
-              <div class="content">
-                Bot que toma facturas desde carpetas compartidas, valida datos,
-                genera plantillas y las carga al ERP, reduciendo horas de trabajo manual.
-              </div>
-            </div>
-            <footer class="card-footer">
-              <!-- Cambia el href cuando tengas repo o demo -->
-              <a href="#" class="card-footer-item">Ver detalle</a>
-            </footer>
-          </div>
-        </div>
-
-        <!-- Proyecto 2 -->
-        <div class="column is-4">
-          <div class="card project-card">
-            <div class="card-content">
-              <p class="title is-4">Dashboard de costos de transporte</p>
-              <p class="subtitle is-6">Power BI · SQL · ETL</p>
-              <div class="content">
-                Modelo de datos y dashboard para monitorear costos por ruta, carrier
-                y periodo, integrando información de diferentes sistemas.
-              </div>
-            </div>
-            <footer class="card-footer">
-              <a href="#" class="card-footer-item">Ver detalle</a>
-            </footer>
-          </div>
-        </div>
-
-        <!-- Proyecto 3 -->
-        <div class="column is-4">
-          <div class="card project-card">
-            <div class="card-content">
-              <p class="title is-4">Proyecto de análisis de datos (personal)</p>
-              <p class="subtitle is-6">Python · Pandas · Visualización</p>
-              <div class="content">
-                Notebook donde exploro un dataset (ventas, transporte, etc.),
-                aplicando limpieza, análisis exploratorio y visualizaciones.
-              </div>
-            </div>
-            <footer class="card-footer">
-              <a href="#" class="card-footer-item">Ver en GitHub</a>
-            </footer>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contact" class="section has-background-light">
-    <div class="container">
-      <h2 class="title is-2 section-title">Contacto</h2>
-      <div class="columns">
-        <div class="column is-6">
-          <p class="content is-size-5">
-            ¿Te interesa colaborar, revisar mi trabajo o tienes alguna oportunidad
-            relacionada con automatización o datos?
-          </p>
-          <p class="content is-size-5">
-            Puedes escribirme directamente a:
-          </p>
-          <p class="content is-size-5">
-            <strong>Email:</strong> tu_correo@ejemplo.com<br />
-            <strong>GitHub:</strong> <a href="https://github.com/TU_USUARIO" target="_blank">github.com/TU_USUARIO</a><br />
-            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/TU_PERFIL" target="_blank">linkedin.com/in/TU_PERFIL</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="has-text-centered">
-    <p>
-      Living, learning & leveling up one project at a time. ✨
-    </p>
-    <p class="is-size-7 mt-2">
-      Hecho con <a href="https://bulma.io" target="_blank">Bulma</a> y GitHub Pages.
-    </p>
-  </footer>
-
-  <!-- JS simple para el menú burger en móvil -->
-  <script>
-    const burger = document.querySelector('.navbar-burger');
-    const menu = document.querySelector('#mainNavbar');
-
-    if (burger && menu) {
-      burger.addEventListener('click', () => {
-        burger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
-      });
-    }
-  </script>
-</body>
+        </footer>
+    
+    <script src="js/main.js" defer></script>
+    </body>
 </html>
