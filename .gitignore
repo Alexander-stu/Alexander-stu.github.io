@@ -1,0 +1,19 @@
+# Ignorar carpeta de dependencias
+node_modules/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivo de configuración
+.env
+
+# Ignorar carpeta de VSCode
+.vscode/
+
+# Ignorar build
+dist/
+build/
+
+# Ignorar archivos especiales
+actividades.txt
